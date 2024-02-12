@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :greetings
     end
   end
+  get '/greetings', to: 'root#index'
 
   root 'root#index'
 end

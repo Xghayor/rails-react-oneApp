@@ -60,7 +60,7 @@ Ruby, Ruby on Rails, Postgresql, Visual Studio Code, React Redux
 To use this project:
 ```
 git clone https://github.com/Xghayor/rails-react-oneApp.git
-cd hello-rails-react
+cd rails-react-oneApp
 
 ```
 
@@ -93,8 +93,8 @@ To use, run:
 ## 👥 Author <a name="author"></a>
 
 👤 **Ghayoor Ul Baqir**
-- GitHub: [@MozamelJawad](https://github.com/Xghayor)
-- LinkedIn: [mozamel](https://www.linkedin.com/in/ghayoor-ul-baqir/)
+- GitHub: [@Ghayor](https://github.com/Xghayor)
+- LinkedIn: [GhayoorUlBaqir](https://www.linkedin.com/in/ghayoor-ul-baqir/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

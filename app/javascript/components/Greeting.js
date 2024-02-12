@@ -10,7 +10,6 @@ const GreetingsComponent = () => {
     dispatch(fetchGreetings());
   }, [dispatch]);
 
-
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -19,17 +18,14 @@ const GreetingsComponent = () => {
     return <p>Error: {error}</p>;
   }
 
-  if (!greetings || greetings.length === 0) {
-    return <p>No greetings available</p>;
-  }
-
-  const randomIndex = Math.floor(Math.random() * greetings.length);
-  const randomGreeting = greetings[randomIndex].content;
-
   return (
     <div>
       <h1>Greetings</h1>
-      <p>{randomGreeting}</p>
+      {greetings && greetings.content && (
+        <div>
+          <p>{greetings.content}</p>
+        </div>
+      )}
     </div>
   );
 };

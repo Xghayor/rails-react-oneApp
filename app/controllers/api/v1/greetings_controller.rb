@@ -2,7 +2,7 @@ module Api
   module V1
     class GreetingsController < ApplicationController
       def index
-        @greetings = Greeting.all
+        @greetings = Greeting.random_greeting
         render json: @greetings
       end
     end

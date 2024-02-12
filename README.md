@@ -1,24 +1,129 @@
-# README
+# Rails With React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<a name="readme-top"></a>
 
-Things you may want to cover:
+# 📗 Table of Contents
 
-* Ruby version
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Database](#database)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-* System dependencies
+# 📖 [Hello Rails React] <a name="about-project"></a>
 
-* Configuration
+The **Rails With React** is a Ruby on Rails backend API and React-fronted view that shows how to develop Rails and React applications inside a single repository using webpack.
 
-* Database creation
+## 🛠 Built With <a name="built-with"></a>
 
-* Database initialization
+Ruby, Ruby on Rails, Postgresql, Visual Studio Code, React Redux
 
-* How to run the test suite
+### Tech Stack <a name="tech-stack"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+<details>
+  <summary>Ruby on Rails</summary>
+</details>
 
-* Deployment instructions
+<details>
+  <summary>PostgreSQL</summary>
+</details>
 
-* ...
+### Key Features <a name="key-features"></a>
+- **[Database Connection]**
+- **[Rails API]**
+- **[React Redux ]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+### Prerequisites <a name="prerequisites"></a>
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- Git
+- React
+
+### Setup <a name="setup"></a>
+
+To use this project:
+```
+git clone https://github.com/Xghayor/rails-react-oneApp.git
+cd hello-rails-react
+
+```
+
+### Install <a name="install"></a>
+
+To install the project's dependencies, run:
+
+```
+bundle install
+```
+
+### Database <a name="database"></a>
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+### Usage <a name="usage"></a>
+
+To use, run:
+
+```
+./bin/dev
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
+
+👤 **Ghayoor Ul Baqir**
+- GitHub: [@MozamelJawad](https://github.com/Xghayor)
+- LinkedIn: [mozamel](https://www.linkedin.com/in/ghayoor-ul-baqir/)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Extend the Functionality]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Xghayor/rails-react-oneApp/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Kindly give this project a star if you like it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](/LICENSE) license.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
